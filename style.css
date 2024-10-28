@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 :root {
     --primary-color: #46046d;
     --background-color: #ffffff;
@@ -407,4 +408,409 @@ body.theme-dark h1, body.theme-dark section, body.theme-dark #downloadResume, bo
     .resume-content {
         display: block;
     }
+=======
+:root {
+    --primary-color: #46046d;
+    --background-color: #ffffff;
+    --text-color: #333;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: serif;
+    font-family: 600;
+    padding: 1.25rem;
+    position: relative;
+    text-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.1);
+}
+
+.resume-container {
+    max-width: 75rem;
+    margin: auto;
+    background: var(--background-color);
+    padding: 1.25rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 0.625rem rgba(0, 0, 0, 0.1);
+}
+
+h1, section {
+    box-shadow: 5px 5px 8px rgb(97, 54, 167);
+}
+
+.generate-link {
+    background: var(--primary-color);
+    color: #fff;
+    border: none;
+    padding: 0.625rem 1.25rem;
+    border-radius: 0.3125rem;
+    cursor: pointer;
+    position: absolute;
+    z-index: 10;
+}
+
+.generate-link {
+    top: 1rem;
+    right: 32rem;
+    margin-right: 2rem;
+}
+
+.theme-switcher, .download-resume, .share-resume, .generate-link {
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+
+.resume-link-container {
+    width: 70%; 
+    margin-top: 1.5rem;
+    margin-left: 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+#resumeLink {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+    margin-right: 1rem;
+}
+
+.resume-link-container button {
+    padding: 0.625rem 1.25rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 0.3125rem;
+    background-color: var(--primary-color);
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+body.theme-dark .generate-link {
+    background: #1e8de9;
+}
+
+body.theme-dark .resume-link-container button {
+    background-color: #1ee9df;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 1.875rem;
+}
+
+.header h1 {
+    font-size: 2.5rem;
+    color: var(--primary-color);
+}
+
+.header p {
+    font-size: 1.2rem;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+
+.theme-switcher, .download-resume, .share-resume {
+    background: var(--primary-color);
+    color: #fff;
+    border: none;
+    padding: 1rem 1.25rem;
+    border-radius: 0.3125rem;
+    cursor: pointer;
+    z-index: 10;
+}
+
+h1, section, #downloadResume, #shareResume, #themeSwitcher, .resume-link-container button{
+    box-shadow: 5px 5px 8px rgb(151, 60, 236);
+}
+
+.theme-switcher {
+    top: 1rem;
+    right: 1rem;
+    margin-right: 2rem;
+}
+
+.download-resume {
+    top: 1rem;
+    right: 10rem;
+    margin-right: 2rem; 
+}
+
+.share-resume {
+    top: 1rem;
+    right: 21rem;
+    margin-right: 2rem; 
+}
+
+.resume-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.25rem;
+}
+
+.left-side, .right-side {
+    flex: 1;
+}
+
+.left-side {
+    padding-right: 1.25rem;
+}
+
+.right-side {
+    padding-left: 1.25rem;
+    border-left: 0.0625rem solid #ccc;
+}
+
+section {
+    margin-bottom: 1.875rem;
+    padding: 0.625rem;
+    background: #f9f9f9;
+    border-radius: 0.25rem;
+}
+
+h2 {
+    background: var(--primary-color);
+    color: white;
+    padding: 0.9375rem;
+    border-radius: 0.25rem;
+    font-size: 1.5rem;
+    margin-bottom: 0.9375rem;
+}
+
+p {
+    margin-bottom: 0.9375rem;
+    font-size: 1.2rem;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.edu-item, .exp-item, .project-item {
+    margin-bottom: 1.25rem;
+}
+
+h3 {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 0.625rem;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+ul li {
+    background: #e9ecef;
+    margin: 0.7rem 0;
+    padding: 0.625rem;
+    border-radius: 0.25rem;
+    width: 95%;
+    text-align: center;
+    box-shadow: 5px 5px 8px rgba(83, 97, 109, 0.87);
+}
+
+.footer {
+    text-align: center;
+    padding: 0.9375rem;
+    border-top: 0.0625rem solid #ccc;
+    margin-top: 1.875rem;
+    font-size: 1.3rem;
+    font-weight: 700;
+    font-family: serif;
+}
+
+.footer a {
+    text-decoration: none;
+    color: black;
+    margin: 0 0.75rem;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.theme-light {
+    --primary-color: #7700ff;
+    --background-color: #ffffff;
+    --text-color: #050404;
+}
+
+.theme-dark {
+    --primary-color: #1ee9df;
+    --background-color: #222;
+    --text-color: #000000;
+}
+
+body.theme-dark {
+    background-color: #3b3333;
+    color: #070505;
+}
+
+body.theme-dark .resume-container {
+    background: #443d3d;
+    box-shadow: 0 0 0.9375rem rgba(0, 0, 0, 0.5);
+}
+
+body.theme-dark h2, body.theme-dark h3 {
+    color: #0a0707;
+}
+
+body.theme-dark a {
+    color: #1ee9df;
+}
+
+body.theme-dark footer a {
+    color: #1ee9df;
+}
+
+body.theme-dark p, body.theme-dark ul li {
+    color: #080707;
+}
+
+body.theme-dark header p {
+    color: #fff;
+}
+
+body.theme-dark h1, body.theme-dark section, body.theme-dark #downloadResume, body.theme-dark #shareResume, body.theme-dark #themeSwitcher, body.theme-dark .resume-link-container button {
+    box-shadow: 5px 5px 8px rgb(209, 145, 193);
+}
+
+@media (max-width: 768px) {
+    .resume-content {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .left-side, .right-side {
+        padding: 0;
+        border-left: none;
+    }
+
+    .right-side {
+        border-top: 0.0625rem solid #ccc;
+    }
+
+    ul {
+        flex-direction: column;
+    }
+
+    li {
+        width: 90%;
+        max-width: none;
+    }
+
+    .resume-link-container {
+        flex-direction: column;
+        margin: 0;
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 480px) {
+    .header h1 {
+        font-size: 2rem;
+    }
+
+    .header p {
+        font-size: 1rem;
+    }
+
+    h2 {
+        font-size: 1.25rem;
+    }
+
+    h3 {
+        font-size: 1rem;
+    }
+
+    section {
+        width: 87%;
+    }
+
+    li {
+        width: 70%;
+    }
+
+    #resumeLink {
+        width: 100%;
+    }
+
+    .btn {
+        flex-direction: column;
+        align-items: center;
+        gap: 0;
+    }
+
+    .resume-link-container {
+        flex-direction: column;
+        margin: 0;
+        width: 100%;
+    }
+}
+
+@media print {
+    body {
+        margin: 0;
+        padding: 0;
+        font-size: 12pt; 
+    }
+
+    .theme-switcher, .download-resume, .share-resume, .generate-link, 
+    #resumeLink, .resume-link-container {
+        display: none !important; 
+    }
+
+    .resume-container {
+        box-shadow: none; 
+        margin: 0;
+        padding: 0; 
+        width: 100%;
+        max-width: none; 
+        background: var(--background-color);
+        color: var(--text-color);
+    }
+
+    .header h1 {
+        color: var(--primary-color);
+    }
+
+    section {
+        margin: 0;
+        padding: 0;
+        page-break-inside: avoid;
+    }
+
+    h3 {
+        color: #333;
+    }
+    
+    h2 {
+        background-color: var(--primary-color);
+        color: white;
+    }
+
+    .resume-content {
+        display: block;
+    }
+>>>>>>> 06cb29657a1b89e7016879d6d444bae9be564037
 }
