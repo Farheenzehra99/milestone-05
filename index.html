@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shareable Resume Builder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Share Section for Resume Link -->
+    <div class="resume-link-container">
+        <button id="generateLink">Generate Unique URL</button>
+        <input type="text" id="resumeLink" readonly placeholder="Generated URL will appear here">
+    </div>
+
+    <div class="btn">
+        <button class="share-resume" id="shareResume">Share Resume</button>
+        <button id="downloadResume" class="download-resume">Download Resume</button>
+    <button id="themeSwitcher" class="theme-switcher">Switch Theme</button>
+    </div>
+
+    <div class="resume-container">
+        <header class="header">
+            <h1 id="name" contenteditable="true">Syeda Farheen Zehra</h1>
+            <p id="title" contenteditable="true">Full Stack Developer | Hydeabad, Pakistan</p>
+        </header>
+
+        <div class="resume-content">
+            <div class="left-side">
+                <section class="contact-info">
+                    <h2>Contact Information</h2>
+                    <p id="email" contenteditable="true">Email: <a href="mailto:farheenzehra481@example.com">farheenzehra@example.com</a></p>
+                    <p id="phone" contenteditable="true">Phone: +921234567890</p>
+                    <p id="linkedin" contenteditable="true">LinkedIn: <a href="https://www.linkedin.com/in/syeda-farheen-zehra-648459268/">Syeda Farheen Zehra</a></p>
+
+                <section class="personal-info">
+                    <h2>Personal Information</h2>
+                    <p id="fname" contenteditable="true">Father's Name: Syed Ghaffar Hussain</p>
+                    <p id="gender" contenteditable="true">Gender: Female</p>
+                    <p id="age"contenteditable="true">age: 40 </p>
+                </section>
+
+                <section class="objective">
+                    <h2>Objective</h2>
+                    <p id="objective" contenteditable="true">"As a passionate full-stack developer proficient in HTML, CSS, JavaScript, TypeScript, and Next.js, I am committed to creating high-quality, dynamic, and responsive web applications. I strive to bring seamless user experiences to life through innovative solutions, continuously expanding my expertise to deliver impactful and efficient digital projects."
+
+
+
+
+
+
+                    </p>
+                </section>
+
+                <section class="education">
+                    <h2>Education</h2>
+                    <ul id="education-list" class="education-list">
+                        <li>
+                            <h3 id="edu1" contenteditable="true">Graduation In English</h3>
+                            <p id="edu1-school" contenteditable="true">University Of Sindh</p>
+                            <p id="edu1-year" contenteditable="true">2000 - 2003 </p>
+                        </li>
+                        <li>
+                            <h3 id="edu2" contenteditable="true">Intermediate</h3>
+                            <p id="edu2-school" contenteditable="true">Ibne-Rushd Girls College</p>
+                            <p id="edu2-year" contenteditable="true">1997 - 1999 </p>
+                        </li>
+                        <li>
+                            <h3 id="edu3" contenteditable="true">Matriculation</h3>
+                            <p id="edu3-school" contenteditable="true">Little Citizen Secondary School</p>
+                            <p id="edu3-year" contenteditable="true">1995 - 1997 | A Grade (76%)</p>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+
+            <div class="right-side">
+                <section class="skills">
+                    <h2>Skills</h2>
+                    <ul id="skills-list">
+                        <li id="skill1" contenteditable="true">html</li>
+                        <li id="skill2" contenteditable="true">css</li>
+                        <li id="skill3" contenteditable="true">TypeScript</li>
+                        <li id="skill4" contenteditable="true">JavaScript</li>
+                        <li id="skill5" contenteditable="true">Tailwind CSS</li>
+                        <li id="skill6" contenteditable="true">React.js</li>
+                        <li id="skill7" contenteditable="true">Next.js</li>
+                    </ul>
+                </section>
+
+                <section class="experience">
+                    <h2>Experience</h2>
+                    <div class="exp-item">
+                        <h3 id="exp-title" contenteditable="true">Full Stack Developer Intern</h3>
+                        <p id="exp-company" contenteditable="true">XYZ company, Hyderabad</p>
+                        <p id="exp-year" contenteditable="true">2024</p>
+                        <p id="exp-desc" contenteditable="true">Contributed to building responsive websites using JavaScript, Tailwind CSS .</p>
+                    </div>
+                    <br>
+                    <div class="exp-item">
+                        <h3 id="exp-title" contenteditable="true">Front-end Developer Intern</h3>
+                        <p id="exp-company" contenteditable="true">XYZ Company, Karachi</p>
+                        <p id="exp-year" contenteditable="true">2023</p>
+                        <p id="exp-desc" contenteditable="true">Contributed to building responsive websites using JavaScript, Tailwind CSS.</p>
+                    </div>
+                </section>
+
+                <section class="projects">
+                    <h2>Projects</h2>
+                    <ul id="projects-list">
+                        <li>
+                            <h3 id="project1" contenteditable="true">Portfolio Website</h3>
+                            <p id="project1-desc" contenteditable="true">A personal portfolio to showcase web development skills, built using Next.js and Tailwind CSS.</p>
+                        </li>
+                        <li>
+                            <h3 id="project2" contenteditable="true">E-commerce Website</h3>
+                            <p id="project2-desc" contenteditable="true">Developed a mock e-commerce platform with cart functionality using TypeScript, HTML, CSS, and JavaScript.</p>
+                        </li>
+                    </ul>
+                </section>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <p id="footer-info" contenteditable="true">Find me on<a href="https://github.com/Farheenzehra99" target="_blank">GitHub</a> | <a href="mailto:farheenzehra481@example.com">Email</a></p>
+        </footer>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
